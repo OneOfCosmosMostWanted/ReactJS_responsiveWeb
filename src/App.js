@@ -1,15 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import One from './components/One';
-import NavbarOne from './components/NavbarOne';
-import { Routes } from 'react-router-dom';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import One from "./components/One";
+import NavbarOne from "./components/NavbarOne";
+import { Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Service from "./routes/Service";
+import Contact from "./routes/Contact";
 
 function App() {
   return (
     <div className="App">
-        <NavbarOne/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
     </div>
   );
 }
