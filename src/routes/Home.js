@@ -1,3 +1,4 @@
+import Destination from "../components/Destination";
 import Hero from "../components/Hero";
 import NavbarOne from "../components/NavbarOne";
 
@@ -14,6 +15,7 @@ function Home() {
         url="/"
         btnClass="show"
      />
+     <Destination></Destination>
     </>
   );
 }
