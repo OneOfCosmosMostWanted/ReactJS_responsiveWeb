@@ -1,6 +1,7 @@
 import Destination from "../components/Destination";
 import Hero from "../components/Hero";
 import NavbarOne from "../components/NavbarOne";
+import Trip from "../components/Trip";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         btnClass="show"
      />
      <Destination></Destination>
+     <Trip/>
     </>
   );
 }
