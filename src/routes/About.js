@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import NavbarOne from "../components/NavbarOne";
+import Footer from "../components/Footer";
 
 function About() {
   return (
@@ -11,6 +12,7 @@ function About() {
         title="Your Journey Your Story"
         btnClass="hide"
      />
+     <Footer></Footer>
     </>
   );
 }

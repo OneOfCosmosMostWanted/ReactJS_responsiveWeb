@@ -1,4 +1,5 @@
 import Destination from "../components/Destination";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import NavbarOne from "../components/NavbarOne";
 import Trip from "../components/Trip";
@@ -18,6 +19,7 @@ function Home() {
      />
      <Destination></Destination>
      <Trip/>
+     <Footer></Footer>
     </>
   );
 }
